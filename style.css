@@ -1,0 +1,94 @@
+/* Reset CSS - Normalizing browser spacing and behavior */
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #0961a7;
+}
+
+a img, a:link img, a:visited img, a:hover img, a:active img {
+    border: none;
+}
+
+img, embed, object {
+    vertical-align: bottom;
+}
+
+/* Global Styles */
+html, body {
+    padding-top: 50px;
+    background-color: #eeeeee;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Main Container */
+#outer, #wrapper {
+    width: 730px;
+    margin: 0 auto;
+}
+
+#body {
+    padding-top: 30px;
+}
+
+#logo {
+    float: left;
+}
+
+#powering {
+    padding-top: 50px;
+}
+
+#twitter {
+    padding-top: 10px;
+    text-align: right;
+}
+
+/* Content */
+.content {
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+}
+
+/* Top Navigation */
+#logonav {
+    width: 730px;
+    height: 70px;
+    line-height: 70px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #outer, #wrapper {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    #logonav {
+        width: 100%;
+        height: auto;
+        line-height: normal;
+    }
+
+    #twitter {
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .content {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    #footer {
+        font-size: 0.8em;
+    }
+}
+
